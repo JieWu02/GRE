@@ -14,6 +14,4 @@ chunk 所有文档到 `chunked_datasets/Hotpot_test_chunked.json`
 1. 首先执行 `chunk_multi_doc.py` 进行文档分块
 2. 然后执行 `keep_top25_chunks.py` 筛选相关性最高的块
 
-## 输出结果
-
 
