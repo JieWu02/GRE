@@ -1,0 +1,13 @@
+{
+    "framework": "Pytorch",
+    "task": "text-generation",
+    "adapter_cfg": {
+        "model_id_or_path": "/data/heiyy/local_model/init_model/Llama_3_1-8B-Instruct",
+        "model_revision": "master",
+        "sft_type": "lora",
+        "tuner_backend": "peft",
+        "template_type": "llama3",
+        "dtype": "bf16",
+        "system": null
+    }
+}
